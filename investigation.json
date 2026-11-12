@@ -1,0 +1,43 @@
+{
+  "investigated_chat": {
+    "title": "Crawl 100 CanLII decisions with Camoufox",
+    "session_id": "ses_e30f957f8ffeRwWsiqdqpeJEpk"
+  },
+  "original_directory": "/home/headrun/Desktop/Thanush",
+  "local_original_audit": {
+    "unique_urls": 124,
+    "unique_sha256": 124,
+    "hash_failures": 0
+  },
+  "ssh_target": "interns@37.27.51.7",
+  "remote_directory": "/home/interns/camoufox-remote-20261112-50",
+  "fresh_target": 50,
+  "original_sha256": "5b85febdf6330cc1991e42ee5a3bad240cd0c1482a207e84f58a0b2e2c9f8f16",
+  "files": {
+    "test_crawler.py": "4b945b79aa7fefa743a793ce5df889670bd2792712feaa334ab1dcc71af600f9",
+    "remote_setup.sh": "44b04860f89df3a1396071218e46f3056c1eec3a9a59f008addcd7c4dc1331eb",
+    "seed_urls.txt": "2740f3e877f0735115be4f4157ac5d3032b01a5ff0d1b6406f6e163b7f82cff0",
+    "requirements.txt": "56c1bd6c0ff712b0feb16d59cc7b40da6f3a08c3af86f21376142128d20e7683",
+    "README_REMOTE.md": "4f1484c03f8eb21163cd99bffcd548893950f08450c309ac1940244565a9201c",
+    "canlii_crawler.py": "db7a939615ddd845de5b1ec9ec02d7e71139d5b41978c8143290640e306a9a3e",
+    "summarize_crawl.py": "ff8e554098534e89bfcbb54e760c82292cb1c4a791135e4a0af3bf27c12f1d38",
+    "run_parallel.sh": "4f8d58a81e78b426c385373bdf46a6d352063f3d4e242307893f295a29e80430"
+  },
+  "offline_tests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "remote_acceptance": "VERIFIED",
+  "remote_result": {
+    "goal": 50,
+    "verified_unique_urls": 50,
+    "unique_sha256": 50,
+    "error_records": 7,
+    "invalid_records": 0,
+    "goal_reached": true
+  },
+  "remote_archive_sha256": "6d84de25d48f948ed5857be8fc72b06cf4b57d3a1209d93dae98e17d5a94b0a3",
+  "seed_urls": 200,
+  "remote_search_discovery": "HTTP 406; existing URL seeds used; all decision pages freshly fetched",
+  "final_resume": "PASS: final launcher resumed at 50 with no new browser fetches"
+}

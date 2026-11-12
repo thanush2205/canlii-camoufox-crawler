@@ -1,0 +1,8 @@
+{
+  "goal": 50,
+  "verified_unique_urls": 50,
+  "unique_sha256": 50,
+  "error_records": 7,
+  "invalid_records": 0,
+  "goal_reached": true
+}
